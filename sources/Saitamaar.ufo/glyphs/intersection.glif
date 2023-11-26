@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="intersection" format="2">
+  <advance width="1280"/>
+  <unicode hex="2229"/>
+  <outline>
+    <contour>
+      <point x="240" y="82" type="line"/>
+      <point x="240" y="722" type="line"/>
+      <point x="320" y="722" type="line"/>
+      <point x="320" y="82" type="line"/>
+    </contour>
+    <contour>
+      <point x="880" y="722" type="line"/>
+      <point x="960" y="722" type="line"/>
+      <point x="960" y="82" type="line"/>
+      <point x="880" y="82" type="line"/>
+    </contour>
+    <contour>
+      <point x="880" y="722" type="line"/>
+      <point x="800" y="722" type="line"/>
+      <point x="800" y="802" type="line"/>
+      <point x="720" y="802" type="line"/>
+      <point x="720" y="882" type="line"/>
+      <point x="880" y="882" type="line"/>
+    </contour>
+    <contour>
+      <point x="720" y="882" type="line"/>
+      <point x="480" y="882" type="line"/>
+      <point x="480" y="802" type="line"/>
+      <point x="400" y="802" type="line"/>
+      <point x="400" y="722" type="line"/>
+      <point x="320" y="722" type="line"/>
+      <point x="320" y="882" type="line"/>
+      <point x="480" y="882" type="line"/>
+      <point x="480" y="962" type="line"/>
+      <point x="720" y="962" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="filledbox" format="2">
+  <advance width="1280"/>
+  <unicode hex="25A0"/>
+  <outline>
+    <contour>
+      <point x="1120" y="2" type="line"/>
+      <point x="80" y="2" type="line"/>
+      <point x="80" y="1042" type="line"/>
+      <point x="1120" y="1042" type="line"/>
+    </contour>
+  </outline>
+</glyph>

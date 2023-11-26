@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacron" format="2">
+  <advance width="720"/>
+  <unicode hex="0112"/>
+  <outline>
+    <contour>
+      <point x="640" y="2" type="line"/>
+      <point x="0" y="2" type="line"/>
+      <point x="0" y="882" type="line"/>
+      <point x="640" y="882" type="line"/>
+      <point x="640" y="802" type="line"/>
+      <point x="80" y="802" type="line"/>
+      <point x="80" y="482" type="line"/>
+      <point x="560" y="482" type="line"/>
+      <point x="560" y="402" type="line"/>
+      <point x="80" y="402" type="line"/>
+      <point x="80" y="82" type="line"/>
+      <point x="640" y="82" type="line"/>
+    </contour>
+    <contour>
+      <point x="560" y="1042" type="line"/>
+      <point x="80" y="1042" type="line"/>
+      <point x="80" y="1122" type="line"/>
+      <point x="560" y="1122" type="line"/>
+    </contour>
+  </outline>
+</glyph>
