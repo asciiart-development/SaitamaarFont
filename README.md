@@ -1,16 +1,28 @@
 # Saitamaar
 
-Saitamaar font is an ASCII art font. It provides a font width suitable for drawing Japanese SJIS-Art.
-Saitamaar is a font created by [@keage](https://twitter.com/keage) and is available in the public domain.
-I created this repository as a project to enable continuous builds with Saitamaar's OTF files.
+Saitamaar is a font designed specifically for ASCII art. It is particularly optimized for displaying Japanese SJIS-Art (Shift JIS Art). This font was developed by keage and is provided under the public domain. This project provides the OTF files for Saitamaar and facilitates its continuous build process.
 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
 
-## source file
+## Features of Saitamaar Font
 
-The src directory contains glyph files for each set of fonts, as well as project files used to output different subsets.
+Saitamaar is designed to accurately display Japanese ASCII art (SJIS-Art) without any distortion. Below are comparison images showing the application of Saitamaar font and the distortion when using a typical sans-serif font.
+
+- Example using Saitamaar Font:
+![Saitmaar Sample Image](documentation/image-saitamaar.png)
+
+- Example of distortion with a sans-serif font:
+![sans-serif Sample Image](documentation/image-sans-serif.png)
+
+## Font Files
+
+The Saitamaar font files are stored in the "fonts" directory, available in both TrueType (.ttf) and WOFF2 (.woff2) formats.
+
+## Source Files
+
+The "src" directory contains glyph files for each set of the font and project files used for generating various subsets.
 
 ## License
 
-This font is public domain.
+This font is provided in the public domain, allowing free use, modification, and redistribution.
