@@ -1683,7 +1683,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02DE MODIFIER LETTER RHOTIC HOOK: not included in any glyphset definition
  * U+02E5 MODIFIER LETTER EXTRA-HIGH TONE BAR: not included in any glyphset definition
  * U+02E8 MODIFIER LETTER LOW TONE BAR: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0318 COMBINING LEFT TACK BELOW: not included in any glyphset definition
@@ -2217,8 +2217,8 @@ The following glyphs do not have the recommended number of contours:
  * U+2663 BLACK CLUB SUIT: try adding symbols
  * U+2665 BLACK HEART SUIT: try adding symbols
  * U+2666 BLACK DIAMOND SUIT: try adding symbols
- * U+266A EIGHTH NOTE: try adding one of: music, symbols
- * U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols
+ * U+266A EIGHTH NOTE: try adding one of: symbols, music
+ * U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music
  * U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math
  * U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math
  * U+2704 WHITE SCISSORS: try adding symbols
@@ -3107,7 +3107,7 @@ Width = 800:
 logicalnot
 
 Width = 1280:
-divide, orthogonal, uni2266, uni3012, notequal, propersuperset, multiply, plusminus, reflexsubset, angle, uni2267, uni2252, suchthat, perpendicular, propersubset, equivalence, reflexsuperset, element, proportional, uni223D
+suchthat, element, equivalence, notequal, uni3012, uni2252, divide, perpendicular, multiply, uni2267, reflexsuperset, propersubset, proportional, propersuperset, uni223D, reflexsubset, uni2266, angle, plusminus, orthogonal
 
 Width = 880:
 minus
@@ -3155,7 +3155,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Kom (Latn, 360,685 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
