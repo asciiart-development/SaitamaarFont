@@ -115,7 +115,7 @@ fontbakery version: 0.10.4
 * 🔥 **FAIL** The following unacceptable control characters were identified:
  fonts/ttf/Saitamaar-Regular.ttf: uni0009
  [code: unacceptable]
-</div></details><br></div></details><details><summary><b>[20] Saitamaar-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] Saitamaar-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -184,6 +184,10 @@ But instead we have got:
 * 🔥 **FAIL** OS/2.sTypoDescender is "-238" it should be -154 [code: bad-OS/2.sTypoDescender]
 * 🔥 **FAIL** OS/2.sTypoLineGap is "115" it should be 0 [code: bad-OS/2.sTypoLineGap]
 * 🔥 **FAIL** hhea.lineGap is "115" it should be 0 [code: bad-hhea.lineGap]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.10.4, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -1683,8 +1687,8 @@ The following glyphs do not have the recommended number of contours:
  * U+02DE MODIFIER LETTER RHOTIC HOOK: not included in any glyphset definition
  * U+02E5 MODIFIER LETTER EXTRA-HIGH TONE BAR: not included in any glyphset definition
  * U+02E8 MODIFIER LETTER LOW TONE BAR: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0318 COMBINING LEFT TACK BELOW: not included in any glyphset definition
  * U+033B COMBINING SQUARE BELOW: not included in any glyphset definition
@@ -1804,14 +1808,14 @@ The following glyphs do not have the recommended number of contours:
  * U+2177 SMALL ROMAN NUMERAL EIGHT: try adding symbols
  * U+2178 SMALL ROMAN NUMERAL NINE: try adding symbols
  * U+2179 SMALL ROMAN NUMERAL TEN: try adding symbols
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
- * U+2195 UP DOWN ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math
+ * U+2195 UP DOWN ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+219C LEFTWARDS WAVE ARROW: try adding math
  * U+219D RIGHTWARDS WAVE ARROW: try adding math
  * U+21A8 UP DOWN ARROW WITH BASE: try adding math
@@ -1842,7 +1846,7 @@ The following glyphs do not have the recommended number of contours:
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
  * U+2216 SET MINUS: try adding math
- * U+2218 RING OPERATOR: try adding one of: math, symbols
+ * U+2218 RING OPERATOR: try adding one of: symbols, math
  * U+221A SQUARE ROOT: try adding math
  * U+221B CUBE ROOT: try adding math
  * U+221C FOURTH ROOT: try adding math
@@ -1912,7 +1916,7 @@ The following glyphs do not have the recommended number of contours:
  * U+22BF RIGHT TRIANGLE: try adding math
  * U+22C0 N-ARY LOGICAL AND: try adding math
  * U+22C1 N-ARY LOGICAL OR: try adding math
- * U+22C5 DOT OPERATOR: try adding one of: math, symbols
+ * U+22C5 DOT OPERATOR: try adding one of: symbols, math
  * U+22C9 LEFT NORMAL FACTOR SEMIDIRECT PRODUCT: try adding math
  * U+22CA RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT: try adding math
  * U+22CB LEFT SEMIDIRECT PRODUCT: try adding math
@@ -2115,25 +2119,25 @@ The following glyphs do not have the recommended number of contours:
  * U+25AC BLACK RECTANGLE: try adding symbols
  * U+25AD WHITE RECTANGLE: try adding symbols
  * U+25AE BLACK VERTICAL RECTANGLE: try adding symbols
- * U+25AF WHITE VERTICAL RECTANGLE: try adding one of: math, symbols
+ * U+25AF WHITE VERTICAL RECTANGLE: try adding one of: symbols, math
  * U+25B0 BLACK PARALLELOGRAM: try adding symbols
  * U+25B1 WHITE PARALLELOGRAM: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BA BLACK RIGHT-POINTING POINTER: try adding symbols
  * U+25BB WHITE RIGHT-POINTING POINTER: try adding symbols
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C4 BLACK LEFT-POINTING POINTER: try adding symbols
@@ -2142,7 +2146,7 @@ The following glyphs do not have the recommended number of contours:
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25C8 WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND: try adding symbols
  * U+25C9 FISHEYE: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
  * U+25CD CIRCLE WITH VERTICAL FILL: try adding symbols
  * U+25CE BULLSEYE: try adding symbols
@@ -2219,8 +2223,8 @@ The following glyphs do not have the recommended number of contours:
  * U+2666 BLACK DIAMOND SUIT: try adding symbols
  * U+266A EIGHTH NOTE: try adding one of: symbols, music
  * U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music
- * U+266D MUSIC FLAT SIGN: try adding one of: math, symbols, music
- * U+266F MUSIC SHARP SIGN: try adding one of: math, symbols, music
+ * U+266D MUSIC FLAT SIGN: try adding one of: symbols, math, music
+ * U+266F MUSIC SHARP SIGN: try adding one of: symbols, math, music
  * U+2704 WHITE SCISSORS: try adding symbols
  * U+2713 CHECK MARK: try adding symbols
  * U+2718 HEAVY BALLOT X: try adding symbols
@@ -2296,7 +2300,7 @@ The following glyphs do not have the recommended number of contours:
  * U+27B7 HEAVY BLACK-FEATHERED SOUTH EAST ARROW: try adding symbols
  * U+2985 LEFT WHITE PARENTHESIS: try adding math
  * U+2986 RIGHT WHITE PARENTHESIS: try adding math
- * U+29BF CIRCLED BULLET: try adding one of: math, symbols
+ * U+29BF CIRCLED BULLET: try adding one of: symbols, math
  * U+29FB TRIPLE PLUS: try adding math
  * U+2ECD CJK RADICAL WALK ONE: not included in any glyphset definition
  * U+2FF0 IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT: not included in any glyphset definition
@@ -3107,7 +3111,7 @@ Width = 800:
 logicalnot
 
 Width = 1280:
-reflexsuperset, uni3012, uni2252, notequal, plusminus, reflexsubset, element, divide, orthogonal, uni2267, suchthat, equivalence, angle, perpendicular, uni2266, proportional, multiply, propersuperset, uni223D, propersubset
+divide, plusminus, suchthat, equivalence, element, perpendicular, propersubset, uni2252, reflexsuperset, multiply, uni223D, proportional, propersuperset, uni2267, notequal, angle, orthogonal, uni3012, uni2266, reflexsubset
 
 Width = 880:
 minus
@@ -3155,15 +3159,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Lithuanian (Latn, 2,357,094 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 14 | 129 | 7 | 97 | 0 |
-| 0% | 3% | 5% | 51% | 3% | 38% | 0% |
+| 0 | 9 | 14 | 129 | 7 | 96 | 0 |
+| 0% | 4% | 5% | 51% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
