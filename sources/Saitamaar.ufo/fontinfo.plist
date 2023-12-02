@@ -15,7 +15,7 @@
     <key>versionMinor</key>
     <integer>0</integer>
     <key>copyright</key>
-    <string>Created by keage with FontForge 2.0 (http://fontforge.sf.net)</string>
+    <string>The Saitamaar font was created by Keage. Subsequently, the UFO file of the Saitamaar font was developed by scrpgil using FontForge 2.0 (http://fontforge.sf.net).</string>
     <key>unitsPerEm</key>
     <integer>1280</integer>
     <key>capHeight</key>
@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2023/11/21 05:28:13</string>
+    <string>2023/12/02 10:03:17</string>
     <key>openTypeHheaAscender</key>
     <integer>1122</integer>
     <key>openTypeHheaDescender</key>
