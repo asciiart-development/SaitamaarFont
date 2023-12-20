@@ -21,7 +21,7 @@ The Saitamaar font files are stored in the "fonts" directory, available in both 
 
 ## Source Files
 
-The "src" directory contains glyph files for each set of the font and project files used for generating various subsets.
+The "sources" directory contains glyph files for each set of the font and project files used for generating various subsets.
 
 ## License
 
